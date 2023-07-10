@@ -37,7 +37,7 @@ var (
 	}
 )
 
-//创建并返回一个连接
+
 type DeliverConnection struct {
 	*StreamConnection
 	url string
