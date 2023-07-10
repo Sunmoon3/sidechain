@@ -18,7 +18,7 @@ import (
 
 var logger=log.New()
 
-//用于处理所有事件的dispatcher
+
 type Handler func(Event)
 type HandlerRegistry map[reflect.Type]Handler
 
